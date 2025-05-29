@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "02 CHAPINERO",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 123, "LOCCODIGO": "02", "LOCNOMBRE": "CHAPINERO", "PVODIRECCI": "CALLE 74 NO. 14 - 14", "PVONSITIO": "UNIVERSIDAD SERGIO ARBOLEDA", "PVONOMBRE": "UNIVERSIDAD SERGIO ARBOLEDA", "PVONPUESTO": 6, "PVOCODIGO": "160010206", "Resultado-NSS_Mesa": 1, "Resultado-NSS_Nombre Candidato": "NICOLAS SANCHEZ SALAZAR", "Resultado-NSS_Total Votos": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.059795788999963, 4.660894645000042 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 127, "LOCCODIGO": "02", "LOCNOMBRE": "CHAPINERO", "PVODIRECCI": "CALLE 52 NO. 13 - 65", "PVONSITIO": "SENA CALLE 52", "PVONOMBRE": "PARQUEADERO SENA", "PVONPUESTO": 11, "PVOCODIGO": "160010211", "Resultado-NSS_Mesa": 4, "Resultado-NSS_Nombre Candidato": "NICOLAS SANCHEZ SALAZAR", "Resultado-NSS_Total Votos": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.066135842999984, 4.639026454000032 ] } }
+]
+}

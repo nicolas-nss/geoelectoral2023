@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "15 ANTONIO NARIÑO",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 30, "LOCCODIGO": "15", "LOCNOMBRE": "ANTONIO NARINO", "PVODIRECCI": "CARRERA 10 A SUR NO. 3 - 63\n / CARRERA 10 A NO. 3 - 21 SUR *", "PVONSITIO": "POLICARPA", "PVONOMBRE": "COLEGIO DISTRITAL JAIME PARDO LEAL", "PVONPUESTO": 1, "PVOCODIGO": "160011501", "Resultado-NSS_Mesa": 6, "Resultado-NSS_Nombre Candidato": "NICOLAS SANCHEZ SALAZAR", "Resultado-NSS_Total Votos": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.088220975999945, 4.586603001000071 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 342, "LOCCODIGO": "15", "LOCNOMBRE": "ANTONIO NARINO", "PVODIRECCI": "CALLE 6 SUR NO. 14 - 49  /  CARRERA 14 NO. 6 - 51 SUR", "PVONSITIO": "SAN ANTONIO", "PVONOMBRE": "GIMNASIO MONSENOR MANUEL MARIA CAMARGO", "PVONPUESTO": 3, "PVOCODIGO": "160011503", "Resultado-NSS_Mesa": 13, "Resultado-NSS_Nombre Candidato": "NICOLAS SANCHEZ SALAZAR", "Resultado-NSS_Total Votos": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.093606458999943, 4.587600355000063 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 351, "LOCCODIGO": "15", "LOCNOMBRE": "ANTONIO NARINO", "PVODIRECCI": "CALLE 38 A SUR NO. 34 D - 51", "PVONSITIO": "VILLA MAYOR", "PVONOMBRE": "CENTRO COMERCIAL CENTRO MAYOR", "PVONPUESTO": 12, "PVOCODIGO": "160011512", "Resultado-NSS_Mesa": 10, "Resultado-NSS_Nombre Candidato": "NICOLAS SANCHEZ SALAZAR", "Resultado-NSS_Total Votos": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.125093351999965, 4.592644459000041 ] } }
+]
+}

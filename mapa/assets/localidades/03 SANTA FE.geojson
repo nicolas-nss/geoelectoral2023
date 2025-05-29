@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "03 SANTA FE",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 140, "LOCCODIGO": "03", "LOCNOMBRE": "SANTA FE", "PVODIRECCI": "CARRERA 12 A NO. 7 - 07", "PVONSITIO": "MEDICINA LEGAL", "PVONOMBRE": "ANTIGUA ESCUELA SANTA INES", "PVONPUESTO": 12, "PVOCODIGO": "160010312", "Resultado-NSS_Mesa": 5, "Resultado-NSS_Nombre Candidato": "NICOLAS SANCHEZ SALAZAR", "Resultado-NSS_Total Votos": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.08290337699998, 4.597536173000037 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 821, "LOCCODIGO": "03", "LOCNOMBRE": "SANTA FE", "PVODIRECCI": "CARRERA 7  NO.  32 - 84/ CL 33 6B 95", "PVONSITIO": "CENTRO COMERCIAL SAN MARTIN", "PVONOMBRE": "CENTRO COMERCIAL SAN MARTIN", "PVONPUESTO": 21, "PVOCODIGO": "160010321", "Resultado-NSS_Mesa": 8, "Resultado-NSS_Nombre Candidato": "NICOLAS SANCHEZ SALAZAR", "Resultado-NSS_Total Votos": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.067671795999956, 4.619655990000069 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 823, "LOCCODIGO": "03", "LOCNOMBRE": "SANTA FE", "PVODIRECCI": "CARRERA 5 NO. 21 - 38", "PVONSITIO": "UNIVERSIDAD CENTRAL", "PVONOMBRE": "UNIVERSIDAD CENTRAL", "PVONPUESTO": 23, "PVOCODIGO": "160010323", "Resultado-NSS_Mesa": 4, "Resultado-NSS_Nombre Candidato": "NICOLAS SANCHEZ SALAZAR", "Resultado-NSS_Total Votos": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.069344823999984, 4.606374054000071 ] } }
+]
+}
