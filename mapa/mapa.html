@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/ol-geocoder.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/ol-geocoder.js"></script>
+        <script src="layers/pvoBTApvo_1.js"></script><script src="layers/20SUMAPAZ_2.js"></script><script src="layers/19CIUDADBOLIVAR_3.js"></script><script src="layers/18RAFAELURIBEURIBE189RAFAELURIBEURIBE_4.js"></script><script src="layers/17CANDELARIA_5.js"></script><script src="layers/16PUENTEARANDAPUENTEARANDA_6.js"></script><script src="layers/15ANTONIONARIO_7.js"></script><script src="layers/14MARTIRES_8.js"></script><script src="layers/13TEUSAQUILLO_9.js"></script><script src="layers/12BARRIOSUNIDOS_10.js"></script><script src="layers/11SUBA_11.js"></script><script src="layers/10ENGATIVA_12.js"></script><script src="layers/09FONTIBON_13.js"></script><script src="layers/08KENNEDY_14.js"></script><script src="layers/07BOSA_15.js"></script><script src="layers/06TUNJUELITO_16.js"></script><script src="layers/05USME_17.js"></script><script src="layers/04SANCRISTOBAL_18.js"></script><script src="layers/03SANTAFE_19.js"></script><script src="layers/02CHAPINERO_20.js"></script><script src="layers/01USAQUEN_21.js"></script><script src="layers/19CIUDADBOLIVAR_22.js"></script><script src="layers/18RAFAELURIBEURIBE_23.js"></script><script src="layers/17CANDELARIA_24.js"></script><script src="layers/16PUENTEARANDA_25.js"></script><script src="layers/15ANTONIONARIO_26.js"></script><script src="layers/14MARTIRES_27.js"></script><script src="layers/13TEUSAQUILLO_28.js"></script><script src="layers/12BARRIOSUNIDOS_29.js"></script><script src="layers/11SUBA_30.js"></script><script src="layers/10ENGATIVA_31.js"></script><script src="layers/09FONTIBON_32.js"></script><script src="layers/08KENNEDY_33.js"></script><script src="layers/07BOSABOSA_34.js"></script><script src="layers/06TUNJUELITO_35.js"></script><script src="layers/05USMEUSME_36.js"></script><script src="layers/04SANCRISTOBAL03SANCRISTOBAL_37.js"></script><script src="layers/03SANTAFE_38.js"></script><script src="layers/02CHAPINERO_39.js"></script><script src="layers/01USAQUEN_40.js"></script>
+        <script src="styles/pvoBTApvo_1_style.js"></script><script src="styles/20SUMAPAZ_2_style.js"></script><script src="styles/19CIUDADBOLIVAR_3_style.js"></script><script src="styles/18RAFAELURIBEURIBE189RAFAELURIBEURIBE_4_style.js"></script><script src="styles/17CANDELARIA_5_style.js"></script><script src="styles/16PUENTEARANDAPUENTEARANDA_6_style.js"></script><script src="styles/15ANTONIONARIO_7_style.js"></script><script src="styles/14MARTIRES_8_style.js"></script><script src="styles/13TEUSAQUILLO_9_style.js"></script><script src="styles/12BARRIOSUNIDOS_10_style.js"></script><script src="styles/11SUBA_11_style.js"></script><script src="styles/10ENGATIVA_12_style.js"></script><script src="styles/09FONTIBON_13_style.js"></script><script src="styles/08KENNEDY_14_style.js"></script><script src="styles/07BOSA_15_style.js"></script><script src="styles/06TUNJUELITO_16_style.js"></script><script src="styles/05USME_17_style.js"></script><script src="styles/04SANCRISTOBAL_18_style.js"></script><script src="styles/03SANTAFE_19_style.js"></script><script src="styles/02CHAPINERO_20_style.js"></script><script src="styles/01USAQUEN_21_style.js"></script><script src="styles/19CIUDADBOLIVAR_22_style.js"></script><script src="styles/18RAFAELURIBEURIBE_23_style.js"></script><script src="styles/17CANDELARIA_24_style.js"></script><script src="styles/16PUENTEARANDA_25_style.js"></script><script src="styles/15ANTONIONARIO_26_style.js"></script><script src="styles/14MARTIRES_27_style.js"></script><script src="styles/13TEUSAQUILLO_28_style.js"></script><script src="styles/12BARRIOSUNIDOS_29_style.js"></script><script src="styles/11SUBA_30_style.js"></script><script src="styles/10ENGATIVA_31_style.js"></script><script src="styles/09FONTIBON_32_style.js"></script><script src="styles/08KENNEDY_33_style.js"></script><script src="styles/07BOSABOSA_34_style.js"></script><script src="styles/06TUNJUELITO_35_style.js"></script><script src="styles/05USMEUSME_36_style.js"></script><script src="styles/04SANCRISTOBAL03SANCRISTOBAL_37_style.js"></script><script src="styles/03SANTAFE_38_style.js"></script><script src="styles/02CHAPINERO_39_style.js"></script><script src="styles/01USAQUEN_40_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
